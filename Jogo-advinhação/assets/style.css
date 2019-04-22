@@ -67,6 +67,12 @@ button:hover {
     box-shadow: none;
 }
 
-li {
-    fon
-}
+@media (max-width: 768px) {
+    .container {
+        width: 100vw;
+    }
+
+    img {
+        width: 70%;
+    }
+  }

@@ -1,16 +1,11 @@
 window.addEventListener('DOMContentLoaded', function() {
-    
-    let resultado = document.querySelector ("#resultado");
-    let opcoesComputador = ["pedra", "papel", "tesoura", "lagarto", "spock"];
-    let computador = opcoesComputador[Math.floor(Math.random(opcoesComputador) * opcoesComputador.length)];
-    let resposta = document.querySelector ("#resposta");    
-    
-
-
-    
-    
+       
     enviar.addEventListener ('click', function(){
         let jogador = document.querySelector ("#jogar").value;
+        let resultado = document.querySelector ("#resultado");
+        let opcoesComputador = ["pedra", "papel", "tesoura", "lagarto", "spock"];
+        let computador = opcoesComputador[Math.floor(Math.random(opcoesComputador) * opcoesComputador.length)];
+        let resposta = document.querySelector ("#resposta"); 
         
         switch (jogador) {
 
@@ -93,17 +88,17 @@ window.addEventListener('DOMContentLoaded', function() {
         
     });
 
-    selecionar.addEventListener ('click', function() {
-        console.log ("não deu");
-        let jogador = document.querySelector ("#jogar").value;
-        let selecionar = document.querySelector ("#selecionar");
+    // selecionar.addEventListener ('click', function() {
+    //     console.log ("não deu");
+    //     let jogador = document.querySelector ("#jogar").value;
+    //     let selecionar = document.querySelector ("#selecionar");
 
-        if (jogador == "selecionar"){
-        resultado.innerHTML = " ";
-        resposta.innerHTML = " ";
-        };
+    //     if (jogador == "selecionar"){
+    //     resultado.innerHTML = " ";
+    //     resposta.innerHTML = " ";
+    //     };
 
-    });
+    // });
      
     
 });
