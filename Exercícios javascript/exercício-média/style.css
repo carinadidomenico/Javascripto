@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top:150px;
+}
+
+h1{
+    color: #7F479B;
+    font-size: 30px;
+    text-align: center;
+}
+
+.caixa {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #7F479B;
+    height: 30vh;
+    width: 100vh;
+    margin: 0 auto;
+}
+
+input{
+    margin: 10px 0;
+}
+
+.botao{
+    background-color: #c6c6c6;
+    padding: 10px;
+    border-radius: 5px;
+}
