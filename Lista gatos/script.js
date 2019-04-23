@@ -7,6 +7,7 @@ window.addEventListener('DOMContentLoaded', function() {
     gatos.forEach(function(gato) {
         console.log(gato);
         quantidade.innerHTML = ("Minha lista tem: " + gatos.length + " gatos");
+        lista.innerHTML = (gatos)
       });
 
   });
