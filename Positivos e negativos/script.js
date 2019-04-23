@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', function(event) {
             resultado.innerHTML = (`${numberValue} é positivo`)
         }
         else {
-            resultado.innerHTML = (`${numberValue} é neutro`);
+            resultado.innerHTML = (`${numberValue} é negativo`);
         }
 
     })
