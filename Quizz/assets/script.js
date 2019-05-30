@@ -1,10 +1,17 @@
 window.addEventListener('DOMContentLoaded', function() {
     
-    let  = document.querySelector ("button");
-    let escolha = document.querySelector ("button").value
+    let escolha = document.querySelector ("button");
     
 
     botao.addEventListener('click', function() {
+
+      if (escolha.value == "2012"){
+        escolha.style.background = "green";
+      }
+      else {
+        escolha.style.background = "red";
+      }
+
       });
 
 
